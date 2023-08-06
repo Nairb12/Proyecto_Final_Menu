@@ -26,6 +26,12 @@ git add *
 git branch -d <nombreRama>
 ```
 
+### Restaurar cambios
+```bash
+git restore --staged <nombreArchivoNuevo>
+git restore <nombreArchivoModificado>
+```
+
 ### Crear commit
 ```bash
 git commit -m "<descripciónDeCommit>"
