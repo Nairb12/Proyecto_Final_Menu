@@ -58,4 +58,3 @@ Desde la rama la cual queremos actualizar
 ```bash
 git merge <nombreRama>
 ```
-### Cansao papito
