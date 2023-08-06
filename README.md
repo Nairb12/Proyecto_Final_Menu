@@ -21,6 +21,11 @@ git add <nombreDeCarpeta>/*
 git add *
 ```
 
+### Eliminar la rama en el repositorio local:
+```bash
+git branch -d <nombreRama>
+```
+
 ### Restaurar cambios
 ```bash
 git restore --staged <nombreArchivoNuevo>
