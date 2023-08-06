@@ -21,6 +21,12 @@ git add <nombreDeCarpeta>/*
 git add *
 ```
 
+### Restaurar cambios
+```bash
+git restore --staged <nombreArchivoNuevo>
+git restore <nombreArchivoModificado>
+```
+
 ### Crear commit
 ```bash
 git commit -m "<descripciónDeCommit>"
