@@ -1,5 +1,6 @@
 package com.example.proyecto_final_menu;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,10 +13,19 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     EditText etus, etpass;
     Button btnAcceder, btnRegistro;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> 1eb7f6ba84a2ee05a1caec9eb0ee355095f3771d
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         etus = findViewById(R.id.etus);
         etpass = findViewById(R.id.etpass);
         btnAcceder = findViewById(R.id.btnAcceder);
@@ -36,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> 1eb7f6ba84a2ee05a1caec9eb0ee355095f3771d
     }
 }
